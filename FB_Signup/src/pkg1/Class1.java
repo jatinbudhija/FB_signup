@@ -36,7 +36,7 @@ Class1 obj = new Class1();
 	public void selectDrop(WebElement element, String visibleText)
 	{
 		Select s = new Select(element);
-		s.selectByVisibleText(visibleText);
+		s.selectByVisibleText(visibleText);  // using visible text
 	}
 		
 	}
